@@ -1,0 +1,458 @@
+* {
+    font-family: sans-serif;
+
+}
+
+html {
+    background-color: black;
+}
+
+.main {
+    background-image: url(image/img_01.jpg);
+    height: 80vh;
+
+    background-size: max(1500px, 120vw);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.78;
+    position: absolute;
+    top: 0;
+    background-color: black
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    
+}
+
+
+
+
+
+nav .png {
+    position: relative;
+    z-index: 10;
+    margin-top: 22px;
+}
+
+nav .btn {
+    position: relative;
+    z-index: 10;
+
+}
+
+.text {
+    position: relative;
+    z-index: 9;
+    height: 100%;
+    margin-top: -50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 23px;
+    flex-direction: column;
+    font-weight: 500;
+
+
+
+}
+
+.text .first {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.search {
+
+    display: flex;
+    gap: 7px;
+
+
+
+}
+
+.oop {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
+
+}
+
+.red {
+    width: 70px;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    padding: 3px 10px 3px 10px;
+    width: 90px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.oo {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px 3px 10px;
+    cursor: text;
+
+}
+
+.rr {
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    align-items: center;
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.separation {
+    background-color: rgb(31, 30, 30);
+    height: 7px;
+
+}
+
+.firstsec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    max-width: 70vw;
+    margin-top: 20vh;
+
+}
+
+.left01 {
+    color: white;
+    margin-top: -15vh;
+}
+
+.left01 h1 {
+    font-weight: 800;
+}
+
+.right01 {
+    position: relative;
+}
+
+.right01 img {
+    position: relative;
+
+}
+
+.right01 video {
+    position: absolute;
+
+
+    top: 58px;
+    right: 129px;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    margin-top: 10vh;
+}
+
+.right02 h1 {
+    font-weight: 800;
+    max-width: 40vw;
+}
+
+
+.right02 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+
+
+
+
+}
+
+.left03 {
+    color: white;
+
+
+
+}
+
+.left03 h1 {
+    font-weight: 800;
+}
+
+.right03 {
+    position: relative;
+
+}
+
+.right03 img {
+    position: relative;
+}
+
+
+.right03 video {
+    position: absolute;
+
+    top: 109px;
+    right: 49px;
+}
+
+.fourth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    margin-top: 10vh;
+}
+
+.right04 {
+    color: white;
+}
+
+.right04 h1 {
+    font-weight: 800;
+}
+
+.fifth h1 {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    color: white;
+    margin: 32px auto;
+    column-gap: 2vh;
+    font-weight: 800;
+}
+
+.fifth .bar {
+    background-color: rgb(24, 24, 24);
+    color: rgb(207, 205, 205);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    max-width: 50vw;
+    margin: 14px auto;
+    padding: 2px 12px 2px 15px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.bar:hover {
+    background-color: rgb(92, 90, 90);
+
+}
+
+.last00 {
+    color: rgb(128, 125, 125);
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+}
+
+.ssr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    color: rgb(168, 163, 163);
+    max-width: 60vw;
+    margin: auto;
+    padding: 20px;
+    font-size: smaller;
+}
+
+.lastpage {
+
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.option a {
+
+    color: rgb(177, 172, 172);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: smaller;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:650px) {
+
+
+    .main {
+        background-size: max(1700px, 100vw);
+        width: 100vw;
+        height: 90vh;
+
+    }
+
+
+    .box {
+        height: 90vh;
+    }
+
+    nav {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .btn {
+        margin-top: -40px;
+    }
+
+    .text {
+        font-size: 20px;
+        margin-top: auto;
+        gap: 5px;
+
+
+    }
+
+    .text .first {
+        font-size: 37px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 200px;
+    }
+
+    .span {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 200px;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .rr {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstsec {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .right01 video {
+        position: absolute;
+
+
+
+        top: 58px;
+        right: 129px;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right02 {
+        padding-bottom: 20px;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right03 {
+        position: relative;
+    }
+
+
+    .right03 video {
+        position: absolute;
+
+        top: 109px;
+        right: 49px;
+
+
+
+    }
+
+    .left03 {
+        height: -5vh;
+    }
+
+    .fourth {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right04 {
+        padding-bottom: 20px;
+    }
+
+    .lastpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
